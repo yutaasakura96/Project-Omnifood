@@ -457,7 +457,7 @@
 }
 
 /*******************/
-/* CALL TO ACTION */
+/* CALL TO ACTION SECTION*/
 /*******************/
 
 .section-cta {
@@ -536,4 +536,8 @@
 
 .cta *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5)
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+/*******************/
+/* FOOTER SECTION */
+/*******************/
