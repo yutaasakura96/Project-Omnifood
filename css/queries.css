@@ -121,6 +121,8 @@
   /* MOBILE NAVGATION BAR */
   .btn-mobile-nav {
     display: block;
+    background-color: #fdf2e9;
+    z-index: 1000;
   }
 
   .main-nav {
@@ -259,6 +261,11 @@
 
   .step-img-box {
     transform: translateY(2.4rem);
+  }
+
+  .pricing-plan--complete::after {
+    top: 8%;
+    right: -12%;
   }
 
   .testimonials {
