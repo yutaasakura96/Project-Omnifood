@@ -1,47 +1,93 @@
-# <a href="https://omnifood-yasakura.netlify.app" target="_blank">Omnifood Project</a>
+# 📚 Omnifood Project
 
-This project represents the culmination of my HTML/CSS course, showcasing my web development skills. Omnifood, a fictional company specializing in AI-based meal subscriptions, is the focal point of this single-page website.
+This project is the culmination of my HTML/CSS course, showcasing my web development skills. **Omnifood** is a fictional company specializing in AI-based meal subscriptions, and this single-page website highlights both responsive design and advanced CSS techniques.
 
-## Features
+![Omnifood Project Screenshot](https://github.com/user-attachments/assets/5ee59893-5a0a-4ccb-ae95-7b6d66b485dd)
 
-### Responsive Hamburger Menu
+🌐 **[Live Demo](https://omnifood-yasakura.netlify.app/)**
 
-- Designed a responsive hamburger menu that dynamically appears on smaller screens.
+## 🚀 Features
 
-### Smooth Scrolling
+### 🍔 Responsive Hamburger Menu
+- Designed a responsive **hamburger menu** that dynamically appears on smaller screens, enhancing user experience for mobile visitors.
 
-- Implemented smooth scrolling functionality to enhance user experience when navigating the header and footer sections.
+### 🧭 Smooth Scrolling
+- Implemented **smooth scrolling** functionality, making transitions between the header, sections, and footer seamless for users.
 
-### Subtle Animations
+### 💫 Subtle Animations
+- Leveraged `IntersectionObserver` for **animations** that trigger as elements enter the viewport, providing a polished, interactive experience.
 
-- Employed `IntersectionObserver` to introduce subtle animations triggered by viewport conditions.
+### 🌍 Cross-browser Compatibility
+- Ensured compatibility across different browsers by incorporating CSS prefixes (`-webkit`, `-moz-`, `-o-`, `-ms-`) for consistent rendering of styles.
 
-### Cross-browser Compatibility
+### 🖥️ Browser Testing
+- Conducted extensive **browser testing** and optimized `select` input styling for uniform appearance across platforms.
 
-- Ensured cross-browser compatibility by incorporating appropriate prefixes (`-webkit`, `-moz-`, `-o-`, `-ms-`) for consistent CSS styling.
+### 📋 Functional Form
+- Created a functional, interactive **form** to engage users and collect their meal preferences and contact details.
 
-### Browser Testing
+### 📱 Full Responsiveness
+- Utilized **media queries** to ensure responsiveness across all device sizes, providing a fluid and adaptable layout for mobile, tablet, and desktop users.
 
-- Rigorously tested the website on various browsers, optimizing `select` input styling for uniform appearance.
+#### 📏 Media Query Breakpoints:
+- **1200px** – Adjustments for landscape-oriented tablets.
+- **944px** – Optimized for standard tablets.
+- **700px** – Tweaked layouts for smaller tablets.
+- **544px** – Mobile-first design for smartphones.
 
-### Functional Form
+### 🛠️ Advanced CSS Techniques
+- Applied advanced CSS techniques such as **Grid**, **Flexbox**, and **absolute positioning**, optimizing layout and enhancing both aesthetics and usability.
 
-- Developed a functional form to elevate user interaction and engagement.
+## 🛠️ Technologies Used
 
-### Full Responsiveness
+- [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) – Structure of the web app.
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics) – Styling and layout design.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Interactivity and functionality.
+- [Netlify](https://www.netlify.com/) – Hosting and deployment.
 
-- Utilized media queries for comprehensive responsiveness, ensuring optimal display across diverse device sizes.
+---
 
-### Advanced CSS Techniques
+## 📖 Code Structure
 
-- Leveraged advanced CSS techniques including grid, flexbox, and absolute positioning for effective layout and styling.
+### HTML:
+- Well-structured semantic HTML tags for accessibility and SEO optimization.
 
-## Tech Stack
+### CSS:
+- Use of advanced CSS techniques including Flexbox, Grid, and media queries for responsiveness.
+- Custom styling for elements such as scrollbars and form inputs.
 
-- HTML
-- CSS
-- JavaScript
+### JavaScript:
+- Handles DOM manipulation for the navigation bar, project filters, and video controls.
+- Event listeners for scrolling, clicks, and media player controls.
 
-## Key Takeaways
+## 📝 Key Takeaways
 
-Creating Omnifood from scratch enhanced my hands-on experience and proficiency in developing features applicable to future web projects. The journey covered aspects ranging from responsive design to the application of advanced CSS techniques.
+Building the **Omnifood** project from scratch was an invaluable learning experience. It enhanced my skills in developing user-friendly and visually appealing websites. Key lessons include:
+- The importance of **responsive design**.
+- Mastery of **advanced CSS** techniques like Grid and Flexbox.
+- Implementing **cross-browser compatibility** to ensure a consistent experience for all users.
+
+Through this project, I gained hands-on experience in creating a polished website that can be adapted to future web development tasks.
+
+---
+
+## 📂 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/code-and-create.git
+   
+2. Open `index.html` in a browser to view the website.
+3. To modify the CSS or JS, edit the files in the `css` and `js` folders respectively.
+
+---
+
+🤝 **Contributing**
+
+Contributions are welcome! Feel free to fork the project, open an issue, or submit a pull request for any changes or improvements you’d like to suggest.
+
+---
+
+📄 **License**
+
+This project is licensed under the MIT License.
